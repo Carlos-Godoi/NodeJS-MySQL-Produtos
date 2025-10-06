@@ -1,0 +1,29 @@
+{{#condicionalIgualdade situacao "okCadastro"}}
+<div class="alert alert-success">Produto cadastrado com sucesso!</div>
+{{/condicionalIgualdade}}
+
+{{!-- Mensagens --}}
+{{#condicionalIgualdade situacao "okEdicao"}}
+<div class="alert alert-success">Produto editado com sucesso!</div>
+{{/condicionalIgualdade}}
+
+{{!-- Mensagens --}}
+{{#condicionalIgualdade situacao "okRemover"}}
+<div class="alert alert-success">Produto removido com sucesso!</div>
+{{/condicionalIgualdade}}
+
+
+{{!-- Mensagens --}}
+{{#condicionalIgualdade situacao "falhaCadastro"}}
+<div class="alert alert-danger">Falha ao cadastrado produto, tente novamente.</div>
+{{/condicionalIgualdade}}
+
+{{!-- Mensagens --}}
+{{#condicionalIgualdade situacao "falhaEdicao"}}
+<div class="alert alert-danger">Falha ao editar produto, tente novamente.</div>
+{{/condicionalIgualdade}}
+
+{{!-- Mensagens --}}
+{{#condicionalIgualdade situacao "falhaRemover"}}
+<div class="alert alert-danger">Falha ao remover produto, tente novamente.</div>
+{{/condicionalIgualdade}}
